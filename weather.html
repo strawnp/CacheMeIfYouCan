@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ajax Interactions</title>
+    <meta charset="utf-8">
+    <script src="weather_helpers.js"></script>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Open Weather Map</legend>
+        Query By:
+        <input type="radio" name="param" id="city" value="city"><label for="city">City</label>
+        <input type="radio" name="param" id="zip" value="zip"><label for="zip">Zip Code</label>
+        <br><br>
+        <label for="location">City or Zip Code: </label>
+          <input type="text" id="location" name="location">
+        <input type="submit" id="weatherForm">
+      </fieldset>
+    </form>
+    <div id="weatherDisplay"></div>
+  </body>
+</html>
